@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Atamaİslemi";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Atamaİslemi</h1>
+
+@using EntityLayer.Concrete
+@model List<AppAntrenor>
+
+
+
+<h1> Antrenor Listesi  </h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Antrenor Id</th>
+        <th>UzmanlikAlani</th>
+
+        <th>Antrenor Atama </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AntrenorId</td>
+            <td>@item.UzmanlikAlani</td>
+
+            <td>
+                <a href="/Admin/AntrenorDanisanAtama/Eslestirme/@item.AntrenorId" class="btn btn-outline-success">ATAMA</a>
+            </td>
+
+        
+        </tr>
+    }
+
+</table>
+
+

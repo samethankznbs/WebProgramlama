@@ -1,0 +1,45 @@
+﻿@using yazlabyeto.Models
+@model KayitModel
+@{
+    ViewData["Title"] = "KullaniciEkle";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+
+<h1>Kullanici Ekleme Sayfası </h1>
+<form method="post">
+    <div class="form-group">
+
+        <label>Ad</label>
+        <input type="text" name="ad" class="form-control" />
+
+        <label>Soyad</label>
+        <input type="text" name="soyad" class="form-control" />
+
+        <label>Dogum Tarihi </label>
+        <input type="text" name="dogumTarihi" class="form-control" />
+
+        <label>Cinsiyet</label>
+        <input type="text" name="cinsiyet" class="form-control" />
+
+        <label>TelefonNo</label>
+        <input type="text" name="telefonNumarasi" class="form-control" />
+
+        <label>Email</label>
+        <input type="text" name="Email" class="form-control" />
+
+        <label>KullaniciAd</label>
+        <input type="text" name="UserName" class="form-control" />
+
+
+        <div class="form-group col-sm-6 flex-column d-flex">
+            <label class="form-control-label px-3">Parola<span class="text-danger"> *</span></label>
+            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+            <input type="password" class="form-control" asp-for="@Model.Password" placeholder="Şifre" required="">
+        </div>
+
+
+
+    </div>
+    <button class="btn btn-outline-info col-12">Kaydet</button>
+</form>
