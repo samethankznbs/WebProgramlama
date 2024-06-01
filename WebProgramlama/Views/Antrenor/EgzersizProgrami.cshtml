@@ -1,0 +1,40 @@
+﻿@using yazlabyeto.Models
+@model EgzersizProgramiModel
+@{
+    ViewData["Title"] = "EgzersizProgrami";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>Danisana EgzersizProgrami Ekleme</h1>
+
+
+
+<form method="post">
+    <div class="form-group">
+
+        <label>Egzersiz Adi</label>
+        <input type="text" name="egzersizAdi" class="form-control" />
+
+        <label>Hedef</label>
+        <input type="text" name="hedef" class="form-control" />
+
+        <label>Set Sayisi</label>
+        <input type="text" name="setSayisi" class="form-control" />
+
+        <label>Tekrar Sayisi</label>
+        <input type="text" name="tekrarSayisi" class="form-control" />
+
+      
+        <label>Program Baslangic Tarihi</label>
+        <input type="text" name="programBaslangicTarihi" class="form-control" />
+  
+
+        <label>Program Süresi</label>
+        <input type="text" name="programSuresi" class="form-control" />
+
+
+    </div>
+    <button class="btn btn-outline-info col-12">Kaydet</button>
+
+</form>
+

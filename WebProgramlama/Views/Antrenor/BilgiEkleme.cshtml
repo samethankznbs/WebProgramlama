@@ -1,0 +1,23 @@
+﻿@using yazlabyeto.Models
+@model AntrenorBilgiModel
+@{
+    ViewData["Title"] = "BilgiEkleme";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+
+<h1>Antrenor Bilgi Ekleme Sayfası </h1>
+<form method="post">
+    <div class="form-group">
+
+        <label>Uzmanlik Alani</label>
+        <input type="text" name="UzmanlikAlani" class="form-control" />
+
+        <label>Deneyim</label>
+        <input type="text" name="Deneyim" class="form-control" />
+
+    
+    </div>
+    <button class="btn btn-outline-info col-12">Kaydet</button>
+</form>
+

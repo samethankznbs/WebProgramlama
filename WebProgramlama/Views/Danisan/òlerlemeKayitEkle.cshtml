@@ -1,0 +1,37 @@
+﻿@using yazlabyeto.Models
+@model DanisanİlerlemeKayitModel
+@{
+    ViewData["Title"] = "İlerlemeKayitEkle";
+    Layout = "~/Views/Shared/DanisanLayout.cshtml";
+}
+
+<h1> Danisan İlerlemeKayitBilgileri Ekleme Sayfasi</h1>
+
+<form method="post">
+    <div class="form-group">
+
+        <label>Hedef</label>
+        <input type="text" name="hedef" class="form-control" />
+
+        <label>Kilo</label>
+        <input type="text" name="kilo" class="form-control" />
+
+        <label>Boy</label>
+        <input type="text" name="boy" class="form-control" />
+
+        <label>Vücut Yağ Oranı</label>
+        <input type="text" name="vucutYagOrani" class="form-control" />
+
+        <label>Kas Kütlesi</label>
+        <input type="text" name="kasKutlesi" class="form-control" />
+
+
+        <label>Vücut Kitle İndex</label>
+        <input type="text" name="vucutKitleİndex" class="form-control" />
+
+
+    </div>
+    <button class="btn btn-outline-info col-12">Kaydet</button>
+
+</form>
+

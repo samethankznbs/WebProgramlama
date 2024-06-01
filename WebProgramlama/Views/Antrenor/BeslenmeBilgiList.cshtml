@@ -1,0 +1,50 @@
+﻿@using EntityLayer.Concrete
+@model List<BeslenmePlani>
+@{
+    ViewData["Title"] = "BeslenmeBilgiList";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>BeslenmeBilgiList</h1>
+
+<table class="table table-bordered">
+    <tr>
+
+        <th>Hedef  </th>
+        <th>GunlukOgun</th>
+        <th>KaloriHedef</th>
+        <th>BeslenmePlanBaslangicTarihi</th>
+        <th>PlanSuresi</th>
+
+        <th>Guncelle</th>
+        <th>SİL</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.hedef</td>
+            <td>@item.gunlukOgun</td>
+            <td>@item.kaloriHedef</td>
+            <td>@item.beslenmePlanBaslangicTarihi</td>
+            <td>@item.planSuresi</td>
+            
+
+
+            <td>
+                <a href="/Antrenor/BeslenmeGuncelle/@item.Id" class="btn btn-outline-success">GUNCELLE</a>
+
+              
+            </td>
+
+
+
+            <td>
+               
+
+                <a href="/Antrenor/BeslenmeSil/@item.Id" class="btn btn-outline-success">SİL</a>
+            </td>
+        </tr>
+    }
+
+</table>

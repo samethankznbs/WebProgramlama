@@ -1,0 +1,76 @@
+﻿@using EntityLayer.Concrete
+@model List<AppDanisan>
+
+@{
+    ViewData["Title"] = "AntrenoreGoreDanisanList";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>AntrenoreGoreDanisanList</h1>
+
+
+
+
+
+   <table class="table table-bordered">
+                    <tr>
+                        <th>DanisanId </th>
+                        <th>hedef</th>
+                        <th>kilo</th>
+                        <th>boy</th>
+                        <th>vucutYagOran</th>
+                        <th>kasKutlesi</th>
+                        <th>vucutKitleİndex</th>
+
+                        <th>egzersiz programı</th>
+                        <th>beslenme planı</th>
+                        
+                    </tr>
+             
+            
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="py-1">@item.DanisanId </td>
+                            <td>  @item.hedef  </td>
+                            <td> @item.kilo</td>
+                            <td> @item.boy</td>
+                            <td> @item.vucutYagOrani</td>
+                            <td> @item.kasKutlesi</td>
+                            <td> @item.vucutKitleİndex</td>
+
+                            <td>
+                                <a href="/Antrenor/EgzersizProgrami/@item.DanisanId" class="btn btn-outline-success">Egzersiz Programı OLuştur</a>
+                            </td>
+
+                            <td>
+                                <a href="/Antrenor/BeslenmePlani/@item.DanisanId" class="btn btn-outline-success">Beslenme Plani Oluştur </a>
+                            </td>
+                            
+                       
+                        </tr>
+                    }
+
+
+              
+            </table>
+
+
+            
+           
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+

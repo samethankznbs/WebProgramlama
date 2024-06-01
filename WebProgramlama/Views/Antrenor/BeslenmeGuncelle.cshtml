@@ -1,0 +1,56 @@
+﻿@using yazlabyeto.Areas.Admin.Models
+@model BeslenmePlaniModel
+@{
+    ViewData["Title"] = "BeslenmeGuncelle";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>BeslenmeGuncelle</h1>
+
+<form method="post">
+    <div class="form-group">
+        <div class="row">
+            <input type="hidden" name="Id" class="form-control" value="@Model.Id" />
+
+
+            <div class="col-3">
+                <h3> Hedef </h3>
+                <input type="text" name="hedef" class="form-control" value="@Model.hedef" />
+            </div>
+
+
+            <div class="col-3">
+                <h3>GunlukOgun </h3>
+                <input type="text" name="gunlukOgun" class="form-control" value="@Model.gunlukOgun" />
+            </div>
+
+
+            <div class="col-3">
+                <h3> KaloriHedef</h3>
+                <input type="text" name="kaloriHedef" class="form-control" value="@Model.kaloriHedef" />
+            </div>
+
+            <div class="col-3">
+                <h3> BeslenmePlanBaslangicTarihi </h3>
+                <input type="text" name="beslenmePlanBaslangicTarihi" class="form-control" value="@Model.beslenmePlanBaslangicTarihi" />
+            </div>
+
+            <div class="col-3">
+                <h3> PlanSuresi </h3>
+                <input type="text" name="planSuresi"  class="form-control" value="@Model.planSuresi" />
+            </div>
+
+            <div class="col-3">
+                <h3> Güncelle </h3>
+                <button class="btn btn-success">Güncelle</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <br />
+</form>
+

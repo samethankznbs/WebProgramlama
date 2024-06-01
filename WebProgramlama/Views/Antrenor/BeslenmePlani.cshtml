@@ -1,0 +1,38 @@
+﻿@using yazlabyeto.Models
+@model BeslenmePlaniModel
+@{
+    ViewData["Title"] = "BeslenmePlani";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>BeslenmePlani</h1>
+
+<h1>Danisana BeslenmePlani Ekleme</h1>
+
+
+
+<form method="post">
+    <div class="form-group">
+
+        <label>Hedef</label>
+        <input type="text" name="hedef" class="form-control" />
+
+        <label>Günlük Oğün</label>
+        <input type="text" name="gunlukOgun" class="form-control" />
+
+        <label>Kalori Hedef</label>
+        <input type="text" name="kaloriHedef" class="form-control" />
+
+    
+        <label>Beslenme Plan BaslangicTarihi</label>
+        <input type="text" name="beslenmePlanBaslangicTarihi" class="form-control" />
+
+
+        <label>Plan Süresi</label>
+        <input type="text" name="planSuresi" class="form-control" />
+
+
+    </div>
+    <button class="btn btn-outline-info col-12">Kaydet</button>
+
+</form>

@@ -1,0 +1,51 @@
+﻿@using EntityLayer.Concrete
+@model List<AppDanisan>
+
+
+@{
+    ViewData["Title"] = "DanisanBilgiList";
+    Layout = "~/Views/Shared/DanisanLayout.cshtml";
+}
+
+<h1>DanisanBilgiList</h1>
+
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Hedef</th>
+        <th>Kilo</th>
+        <th>Boy</th>
+         <th>VücutYagOrani</th>
+         <th>KasKütlesi</th>
+        <th>VücutKitleİndex</th>
+        <th>AppUserId</th>
+        <th>Guncelle</th>
+        <th>Sil</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.hedef</td>
+            <td>@item.kilo</td>
+            <td>@item.boy</td>
+            <td>@item.vucutYagOrani</td>
+            <td>@item.kasKutlesi</td>
+            <td>@item.vucutKitleİndex</td>
+            <td>@item.AppUserId</td>
+
+            <td>
+                <a href="/Danisan/İlerlemeKayitGuncelle/@item.DanisanId" class="btn btn-outline-success">GUNCELLE</a>
+            </td>
+
+
+            <td>
+                <a href="/Danisan/İlerlemeKayitSil/@item.DanisanId" class="btn btn-outline-success">SİL</a>
+            </td>
+
+        </tr>
+    }
+
+</table>
+

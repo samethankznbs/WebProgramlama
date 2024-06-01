@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/DanisanLayout.cshtml";
+}
+
+<h1> Danisan Paneli </h1>
+
+
+<H3>  Hosgeldiniz , @ViewBag.ad  :) </H3>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox ">
+                    <div class="ibox-title">
+                        <h5>Kisisel Bilgiler Tablosu</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+
+                        <table class="table table-hover">
+                            </thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>AD</th>
+                                <th>SOYAD</th>
+                                <th>DOGUM TARİHİ</th>
+                                <th>CİNSİYET</th>
+                                <th>TELEFON NO</th>
+                                <th>EMAİL</th>
+                                <th>USERNAME </th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>@Model.Id</td>
+                                    <td>@Model.ad</td>
+                                    <td>@Model.soyad</td>
+                                    <td>@Model.dogumTarihi</td>
+                                    <td>@Model.cinsiyet</td>
+                                    <td>@Model.telefonNumarasi</td>
+                                    <td>@Model.Email</td>
+                                    <td>@Model.UserName</td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+                        <br />
+                        <br />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

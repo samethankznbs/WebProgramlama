@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "AntrenorBilgiList";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>AntrenorBilgiList</h1>
+
+@using EntityLayer.Concrete
+@model List<AppAntrenor>
+
+
+
+
+
+
+<table class="table table-bordered">
+    <tr>
+        
+        <th>Uzmanlik Alani</th>
+        <th>Deneyim</th>
+        
+        <th>AppUserId</th>
+        <th>Guncelle</th>
+        <th>SİL</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UzmanlikAlani</td>
+            <td>@item.Deneyim</td>
+            <td>@item.AppUserId</td>
+
+            <td>
+                <a href="/Antrenor/BilgiGuncelle/@item.AntrenorId" class="btn btn-outline-success">GUNCELLE</a>
+            </td>
+
+            <td>
+                <a href="/Antrenor/BilgiSil/@item.AntrenorId" class="btn btn-outline-success">SİL</a>
+            </td>
+        </tr>
+    }
+
+</table>

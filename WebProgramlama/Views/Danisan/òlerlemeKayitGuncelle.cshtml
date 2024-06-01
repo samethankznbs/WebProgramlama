@@ -1,0 +1,64 @@
+﻿@using yazlabyeto.Areas.Admin.Models
+@model DanisanİlerlemeKayitModel
+@{
+    ViewData["Title"] = "İlerlemeKayitGuncelle";
+    Layout = "~/Views/Shared/DanisanLayout.cshtml";
+}
+
+<h1>İlerleme Kayit Guncelle Sayfasi</h1>
+
+
+<form method="post">
+    <div class="form-group">
+        <div class="row">
+            <input type="hidden" name="DanisanId" class="form-control" value="@Model.DanisanId" />
+
+
+            <div class="col-3">
+                <h3> hedef </h3>
+                <input type="text" name="hedef" class="form-control" value="@Model.hedef" />
+            </div>
+
+            <div class="col-3">
+                <h3>kilo </h3>
+                <input type="text" name="kilo" class="form-control" value="@Model.kilo" />
+            </div>
+
+            <div class="col-3">
+                <h3> boy </h3>
+                <input type="text" name="boy" class="form-control" value="@Model.boy" />
+            </div>
+
+            <div class="col-3">
+                <h3> vucutYagOrani </h3>
+                <input type="text" name="vucutYagOrani" class="form-control" value="@Model.vucutYagOrani" />
+            </div>
+
+            <div class="col-3">
+                <h3> kasKutlesi</h3>
+                <input type="text" name="kasKutlesi" class="form-control" value="@Model.kasKutlesi" />
+            </div>
+
+            <div class="col-3">
+                <h3> vucutKitleİndex </h3>
+                <input type="text" name="vucutKitleİndex" class="form-control" value="@Model.vucutKitleİndex" />
+            </div>
+
+            <div class="col-3">
+                <h3> appuserId </h3>
+                <input type="text" name="AppUserId" class="form-control" value="@Model.AppUserId" />
+            </div>
+          
+            <div class="col-3">
+                <h3> Güncelle </h3>
+                <button class="btn btn-success">Güncelle</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <br />
+</form>

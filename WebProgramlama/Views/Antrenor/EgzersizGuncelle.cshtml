@@ -1,0 +1,62 @@
+﻿@using yazlabyeto.Areas.Admin.Models
+@model EgzersizProgramiModel
+@{
+    ViewData["Title"] = "EgzersizGuncelle";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>EgzersizGuncelle</h1>
+
+<form method="post">
+    <div class="form-group">
+        <div class="row">
+            <input type="hidden" name="Id" class="form-control" value="@Model.Id" />
+
+
+            <div class="col-3">
+                <h3> EgzersizAdi </h3>
+                <input type="text" name="egzersizAdi" class="form-control" value="@Model.egzersizAdi" />
+            </div>
+
+
+            <div class="col-3">
+                <h3>Hedef </h3>
+                <input type="text" name="hedef" class="form-control" value="@Model.hedef" />
+            </div>
+
+
+            <div class="col-3">
+                <h3> SetSayisi </h3>
+                <input type="text" name="setSayisi" class="form-control" value="@Model.setSayisi" />
+            </div>
+
+             <div class="col-3">
+                <h3> TekrarSayisi </h3>
+                <input type="text" name="tekrarSayisi" class="form-control" value="@Model.tekrarSayisi" />
+            </div>
+
+             <div class="col-3">
+                <h3> ProgramBaslangicTarihi </h3>
+                <input type="text" name="programBaslangicTarihi" " class="form-control" value="@Model.programBaslangicTarihi" />
+            </div>
+
+            <div class="col-3">
+                <h3> ProgramSuresi" </h3>
+                <input type="text" name="programSuresi" class="form-control" value="@Model.programSuresi" />
+            </div>
+
+           
+
+            <div class="col-3">
+                <h3> Güncelle </h3>
+                <button class="btn btn-success">Güncelle</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <br />
+</form>
