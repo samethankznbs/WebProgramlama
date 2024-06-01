@@ -1,0 +1,43 @@
+﻿@using yazlabyeto.Areas.Admin.Models
+@model AntrenorBilgiModel
+@{
+    ViewData["Title"] = "BilgiGuncelle";
+    Layout = "~/Views/Shared/AntrenorLayout.cshtml";
+}
+
+<h1>BilgiGuncelle</h1>
+<form method="post">
+    <div class="form-group">
+        <div class="row">
+            <input type="hidden" name="AntrenorId" class="form-control" value="@Model.AntrenorId" />
+
+
+            <div class="col-3">
+                <h3> hedef </h3>
+                <input type="text" name="UzmanlikAlani" class="form-control" value="@Model.UzmanlikAlani" />
+            </div>
+
+            <div class="col-3">
+                <h3>kilo </h3>
+                <input type="text" name="Deneyim" class="form-control" value="@Model.Deneyim" />
+            </div>
+
+
+            <div class="col-3">
+                <h3> appuserId </h3>
+                <input type="text" name="AppUserId" class="form-control" value="@Model.AppUserId" />
+            </div>
+
+            <div class="col-3">
+                <h3> Güncelle </h3>
+                <button class="btn btn-success">Güncelle</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <br />
+</form>

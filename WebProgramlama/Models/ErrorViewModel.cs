@@ -1,4 +1,4 @@
-namespace WebProgramlama.Models
+namespace yazlabyeto.Models
 {
     public class ErrorViewModel
     {

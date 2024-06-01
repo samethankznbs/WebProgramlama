@@ -1,0 +1,143 @@
+﻿@model KayitModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layoutbos.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INSPINIA | Register</title>
+
+    <link href="~/inspinia-gh-pages/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/css/animate.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+
+                <h1> Kayıt Ol </h1>
+
+                <div class="card">
+
+                    <form class="m-t" role="form" asp-action="Index">
+                        <div class="row justify-content-between text-left">
+
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">Ad <span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.ad" class="text-danger"></span>
+
+                                <input type="text" class="form-control" asp-for="@Model.ad" placeholder="Ad ">
+
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3"> Soyad<span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.soyad" class="text-danger"></span>
+
+                                <input type="text" class="form-control" asp-for="@Model.soyad" placeholder="Soyad">
+
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">dogumTarihi <span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.dogumTarihi" class="text-danger"></span>
+
+                                <input type="text" class="form-control" asp-for="@Model.dogumTarihi" placeholder="dogumtarihi">
+
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">cinsiyet<span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.cinsiyet" class="text-danger"></span>
+
+                                <input type="text" class="form-control" asp-for="@Model.cinsiyet" placeholder="cinsiyet">
+
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">telefonNo<span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.telefonNumarasi" class="text-danger"></span>
+
+                                <input type="text" class="form-control" asp-for="@Model.telefonNumarasi" placeholder="telefonno">
+
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">Email<span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                                <input type="email" class="form-control" asp-for="@Model.Email" placeholder="Email">
+                            </div>
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">UserName<span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                                <input type="email" class="form-control" asp-for="@Model.UserName" placeholder="UserName">
+                            </div>
+
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">Parola<span class="text-danger"> *</span></label>
+                                <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                                <input type="password" class="form-control" asp-for="@Model.Password" placeholder="Şifre" required="">
+                            </div>
+
+
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">Parolayı Doğrula <span class="text-danger"> *</span></label>
+
+                                <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+                                <input type="password" class="form-control" asp-for="@Model.ConfirmPassword" placeholder="Şifre Tekrar" required="">
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-between text-left">
+
+
+
+                            <div class="form-group col-sm-6 flex-column d-flex p-4 ">
+                                <button type="submit" class="btn btn-outline-primary block full-width m-b">Kayıt Ol</button>
+                            </div>
+
+
+                        <br />
+                        <span class="text-danger"></span>
+
+
+                        <h3 class="text-muted text-center"><small>Hesabınız var mı?</small></h3>
+                        <a class="btn btn-sm btn-dark btn-block" href="/Login/Index/">Giriş Yap</a>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Mainly scripts -->
+    <script src="~/inspinia-gh-pages/js/jquery-3.1.1.min.js"></script>
+    <script src="~/inspinia-gh-pages/js/popper.min.js"></script>
+    <script src="~/inspinia-gh-pages/js/bootstrap.js"></script>
+    <!-- iCheck -->
+    <script src="~/inspinia-gh-pages/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+</html>

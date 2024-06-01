@@ -1,0 +1,31 @@
+﻿@using EntityLayer.Concrete
+@model yazlabyeto.Models.AppUserViewModel
+<h1>  Tum Kullanicilar  </h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kullanıcı</th>
+        <th>@ViewBag.Id/th>
+    </tr>
+
+    @foreach (var item in Model.Users)
+    {
+        <tr>
+            <td>@item.UserName</td>
+            <td>
+                <div class="col-3">
+                    <form method="post" asp-controller="Mesaj" asp-action="MesajEkrani">
+                        <input type="hidden" name="gonderen_id" value="@item.Id" />
+                        <input type="hidden" name="alici_id" value="@ViewBag.Id" />
+
+                        <button type="submit">Mesaj Gönder</button>
+                    </form>
+
+                </div>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<a href="/Admin/AdminRol/Index/" class="btn btn-primary">Rol Listesine Dön</a>
