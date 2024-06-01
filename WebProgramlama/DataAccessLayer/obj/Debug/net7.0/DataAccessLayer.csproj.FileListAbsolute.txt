@@ -1,0 +1,34 @@
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.runtimeconfig.json
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\DataAccessLayer\obj\Debug\net7.0\DataAcce.E67BD773.Up2Date
