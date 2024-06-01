@@ -1,0 +1,28 @@
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.deps.json
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.runtimeconfig.json
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\refint\EntityLayer.dll
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.pdb
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.genruntimeconfig.cache
+C:\Users\Aylin\source\repos\yazlabyeto\EntityLayer\obj\Debug\net7.0\ref\EntityLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.deps.json
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.runtimeconfig.json
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\bin\Debug\net7.0\EntityLayer.pdb
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\refint\EntityLayer.dll
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.pdb
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\EntityLayer.genruntimeconfig.cache
+C:\Users\Aylin\OneDrive - Kocaeli Universitesi Uzaktan Egitim Merkezi\Masaüstü\yazlabyeto\EntityLayer\obj\Debug\net7.0\ref\EntityLayer.dll
